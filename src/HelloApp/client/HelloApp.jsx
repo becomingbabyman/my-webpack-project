@@ -14,4 +14,12 @@ export default class HelloApp extends Component {
       </MuiThemeProvider>
     )
   }
+
+  // render() {
+  //   return (
+  //     <div>
+  //       <Hello name="Bob" ref="thisRefBreaksThings" />
+  //     </div>
+  //   )
+  // }
 }

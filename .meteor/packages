@@ -27,10 +27,10 @@ react-meteor-data
 
 ## meteor-react-router-ssr
 # minimongo
-# meteorhacks:fast-render
-# meteorhacks:inject-data
+meteorhacks:fast-render
+meteorhacks:inject-data
 # webapp
-# routepolicy
+routepolicy
 # url
 # tmeasday:publish-counts
 # promise

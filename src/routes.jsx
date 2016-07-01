@@ -1,5 +1,5 @@
 import { render } from 'react-dom'
-import { ReactRouterSSR } from 'meteor-react-router-ssr/client';
+import { ReactRouterSSR } from 'meteor-react-router-ssr/react-router-ssr';
 import { Route, IndexRoute } from 'react-router';
 import HelloApp from 'HelloApp/client/HelloApp';
 const AppRoutes = (

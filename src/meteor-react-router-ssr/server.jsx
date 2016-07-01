@@ -13,6 +13,10 @@ import ReactDOMServer from 'react-dom/server';
 import cookieParser from 'cookie-parser';
 import Cheerio from 'cheerio';
 
+import { RoutePolicy } from 'meteor/routepolicy';
+import { FastRender } from 'meteor/meteorhacks:fast-render';
+import { InjectData } from 'meteor/meteorhacks:inject-data';
+
 function IsAppUrl(req) {
   var url = req.url;
   if(url === '/favicon.ico' || url === '/robots.txt') {
@@ -33,7 +37,6 @@ function IsAppUrl(req) {
 let webpackStats;
 
 const ReactRouterSSR = {};
-export default ReactRouterSSR;
 
 // creating some EnvironmentVariables that will be used later on
 ReactRouterSSR.ssrContext = new Meteor.EnvironmentVariable();
@@ -266,3 +269,6 @@ function moveScripts(data) {
 
   return $.html();
 }
+
+export { ReactRouterSSR };
+export default ReactRouterSSR;

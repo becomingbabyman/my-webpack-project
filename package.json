@@ -5,19 +5,14 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "cheerio": "^0.20.0",
-    "cookie-parser": "^1.4.3",
-    "deepmerge": "^0.2.10",
     "material-ui": "^0.15.1",
     "meteor-node-stubs": "~0.2.0",
-    "promise": "^7.1.1",
     "react": "^15.0.0",
     "react-addons-pure-render-mixin": "^15.0.0",
     "react-dom": "^15.0.0",
     "react-mixin": "^3.0.5",
     "react-router": "^2.5.1",
-    "react-tap-event-plugin": "^1.0.0",
-    "underscore": "^1.8.3"
+    "react-tap-event-plugin": "^1.0.0"
   },
   "version": "1.0.0",
   "main": "src/server.js",

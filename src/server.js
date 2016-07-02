@@ -1,6 +1,5 @@
 import { Stuff } from 'collections';
-
-import { ReactRouterSSR } from 'meteor-react-router-ssr/react-router-ssr';
+import { ReactRouterSSR } from 'meteor/reactrouter:react-router-ssr';
 
 // // Do server-rendering only in production
 // // Otherwise, it will break the hot-reload
@@ -13,11 +12,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
-
-
-
+// Load some test data
 if (!Stuff.findOne()) Stuff.insert({ name: 'thing', type: 1 })
-
+// Publish it
 Meteor.publish('stuff', function() {
   return Stuff.find()
 })

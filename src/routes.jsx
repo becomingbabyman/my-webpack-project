@@ -1,5 +1,5 @@
 import { render } from 'react-dom'
-import { ReactRouterSSR } from 'meteor-react-router-ssr/react-router-ssr';
+import { ReactRouterSSR } from 'meteor/reactrouter:react-router-ssr';
 import { Route, IndexRoute } from 'react-router';
 import HelloApp from 'HelloApp/client/HelloApp';
 const AppRoutes = (
@@ -10,6 +10,8 @@ const AppRoutes = (
 );
 ReactRouterSSR.Run(AppRoutes)
 
+
+// NOTE: Rendering without ReactRouterSSR does not add a duplicate React.js
 
 // import { render } from 'react-dom'
 // import { Route, IndexRoute, Router, browserHistory } from 'react-router';

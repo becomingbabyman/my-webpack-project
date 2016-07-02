@@ -24,13 +24,4 @@ webpack:react
 
 react-meteor-data
 
-
-## meteor-react-router-ssr
-# minimongo
-meteorhacks:fast-render
-meteorhacks:inject-data
-# webapp
-routepolicy
-# url
-# tmeasday:publish-counts
-# promise
+reactrouter:react-router-ssr

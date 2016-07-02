@@ -7,9 +7,9 @@
   "dependencies": {
     "material-ui": "^0.15.1",
     "meteor-node-stubs": "~0.2.0",
-    "react": "^15.0.0",
-    "react-addons-pure-render-mixin": "^15.0.0",
-    "react-dom": "^15.0.0",
+    "react": "15.1.0",
+    "react-addons-pure-render-mixin": "15.1.0",
+    "react-dom": "15.1.0",
     "react-mixin": "^3.0.5",
     "react-router": "^2.5.1",
     "react-tap-event-plugin": "^1.0.0"

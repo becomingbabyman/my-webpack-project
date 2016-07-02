@@ -14,7 +14,7 @@ class Hello extends Component {
     return (
       <div>
         <h1>Hello {name}</h1>
-        <p>stuff: {stuff && stuff.name} {stuff && stuff.type}</p>
+        <p>subscribed data: {stuff && stuff.name} {stuff && stuff.type}</p>
       </div>
     );
   }
